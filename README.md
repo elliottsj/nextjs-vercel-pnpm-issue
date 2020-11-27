@@ -96,5 +96,6 @@ The exact repro steps were:
 1. Create this project with `pnpx create-next-app`. Name it `nextjs-vercel-pnpm-issue`.
 2. Create the repo on GitHub and `git push` the Next.js project.
 3. Import the project to Vercel via https://vercel.com/import.
-4. Push each commit invididually (see the commit history of this repo) and observe each Vercel deployment.
-5. After pushing commit 804c122157193afa6fd8de9386782aca1e14cf36, observe the build logs above.
+4. In the Vercel project settings, set the **Install Command** to `npx pnpm install`.
+5. Push each commit invididually (see the commit history of this repo) and observe each Vercel deployment.
+6. After pushing commit 804c122157193afa6fd8de9386782aca1e14cf36, observe the build logs above.
