@@ -1,7 +1,7 @@
 dependencies:
-  next: 10.0.3
+  next: 10.0.6-canary.0
   react: 17.0.1
-  react-dom: 17.0.1
+  react-dom: 17.0.1_react@17.0.1
   sharp: 0.26.3
 lockfileVersion: 5.2
 packages:
@@ -13,31 +13,31 @@ packages:
     resolution:
       integrity: sha512-qpBhcS4urB7IKc+jx2kksN7BuvvwCo7Y3IstapWo+EW+COY5EYAUwb2pil37v3TsaqHKgX//NloFP1SKzGZAnw==
       tarball: '-/pull/@ampproject%2Ftoolbox-core/2.7.4'
-  /@ampproject/toolbox-optimizer/2.7.0-alpha.1:
+  /@ampproject/toolbox-optimizer/2.7.1-alpha.0:
     dependencies:
       '@ampproject/toolbox-core': 2.7.4
       '@ampproject/toolbox-runtime-version': 2.7.4
       '@ampproject/toolbox-script-csp': 2.5.4
       '@ampproject/toolbox-validator-rules': 2.7.4
       abort-controller: 3.0.0
-      cross-fetch: 3.0.5
-      cssnano-simple: 1.2.0
-      dom-serializer: 1.0.1
-      domhandler: 3.0.0
-      domutils: 2.1.0
-      htmlparser2: 4.1.0
+      cross-fetch: 3.0.6
+      cssnano-simple: 1.2.1
+      dom-serializer: 1.1.0
+      domhandler: 3.3.0
+      domutils: 2.4.2
+      htmlparser2: 5.0.1
       https-proxy-agent: 5.0.0
       lru-cache: 6.0.0
-      node-fetch: 2.6.0
+      node-fetch: 2.6.1
       normalize-html-whitespace: 1.0.0
       postcss: 7.0.32
       postcss-safe-parser: 4.0.2
-      terser: 5.1.0
+      terser: 5.5.1
     dev: false
     requiresBuild: true
     resolution:
-      integrity: sha512-2wTvOyM6GP6FrYQzxSQCg43STo1jMRGeDKa6YUkYXYH9fm9Wbt2wTRx+ajjb48JQ6WwUnGwga1MhQhVFzRQ+wQ==
-      tarball: '-/pull/@ampproject%2Ftoolbox-optimizer/2.7.0-alpha.1'
+      integrity: sha512-WGPZKVQvHgNYJk1XVJCCmY+NVGTGJtvn0OALDyiegN4FJWOcilQUhCIcjMkZN59u1flz/u+sEKccM5qsROqVyg==
+      tarball: '-/pull/@ampproject%2Ftoolbox-optimizer/2.7.1-alpha.0'
   /@ampproject/toolbox-runtime-version/2.7.4:
     dependencies:
       '@ampproject/toolbox-core': 2.7.4
@@ -57,13 +57,13 @@ packages:
     resolution:
       integrity: sha512-z3JRcpIZLLdVC9XVe7YTZuB3a/eR9s2SjElYB9AWRdyJyL5Jt7+pGNv4Uwh1uHVoBXsWEVQzNOWSNtrO3mSwZA==
       tarball: '-/pull/@ampproject%2Ftoolbox-validator-rules/2.7.4'
-  /@babel/code-frame/7.10.4:
+  /@babel/code-frame/7.12.11:
     dependencies:
       '@babel/highlight': 7.10.4
     dev: false
     resolution:
-      integrity: sha512-vG6SvB6oYEhvgisZNFRmRCUkLz11c7rp+tbNTynGqc6mS1d5ATd/sGyV6W0KZZnXRKMTzZDRgQT3Ou9jhpAfUg==
-      tarball: '-/pull/@babel%2Fcode-frame/7.10.4'
+      integrity: sha512-Zt1yodBx1UcyiePMSkWnU4hPqhwq7hGi2nFL1LeA3EUl+q2LQx16MISgJ0+z7dnmgvP9QtIleuETGOiOH1RcIw==
+      tarball: '-/pull/@babel%2Fcode-frame/7.12.11'
   /@babel/helper-validator-identifier/7.12.11:
     dev: false
     resolution:
@@ -114,37 +114,50 @@ packages:
     resolution:
       integrity: sha512-CAEbWH7OIur6jEOzaai83jq3FmKmv4PmX1JYfs9IrYcGEVI/lyL1EXJGCj7eFVJ0bg5QR8LMxBlEtA+xKiLpFw==
       tarball: '-/pull/@hapi%2Fhoek/9.1.1'
-  /@next/env/10.0.3:
+  /@next/env/10.0.6-canary.0:
     dev: false
     resolution:
-      integrity: sha512-xjJt2VXoSxAydskmt77nJuEtRL782E4ltaj5JtMzJ8YkNUMMu3d5ktpCR+Q3INKHF/RY6zHJ9QzyE3/s1ikbNg==
-      tarball: '-/pull/@next%2Fenv/10.0.3'
-  /@next/polyfill-module/10.0.3:
+      integrity: sha512-S1xEkCGMNnxTz1NKVu1ek1JHvtfUb64cFZ9V4BhtFoPgZmrTtb3OOW3MDLT0Afi6LXFMpPY56BEX7QXS8xvCLQ==
+      tarball: '-/pull/@next%2Fenv/10.0.6-canary.0'
+  /@next/polyfill-module/10.0.6-canary.0:
     dev: false
     resolution:
-      integrity: sha512-JaiycQZZbqViaMZgRGYcPIdCPDz+qRnqEGxbhQlrxyPaBaOtsrAEkGf1SS2wJZKa/ncxqWHMfSvizDcGcz/ygQ==
-      tarball: '-/pull/@next%2Fpolyfill-module/10.0.3'
-  /@next/react-dev-overlay/10.0.3:
+      integrity: sha512-DMXHP50/7Vf6taOQ7pDCTfqRWyTE94dznQHKRvByeMs4vowaXjqSBu1UXzl8C6VPiK+S5A/FvJz8g4JudqH58w==
+      tarball: '-/pull/@next%2Fpolyfill-module/10.0.6-canary.0'
+  /@next/react-dev-overlay/10.0.6-canary.0:
     dependencies:
-      '@babel/code-frame': 7.10.4
-      ally.js: 1.4.1
+      '@babel/code-frame': 7.12.11
       anser: 1.4.9
       chalk: 4.0.0
       classnames: 2.2.6
-      data-uri-to-buffer: 3.0.0
+      css.escape: 1.5.1
+      data-uri-to-buffer: 3.0.1
+      platform: 1.3.6
       shell-quote: 1.7.2
       source-map: 0.8.0-beta.0
       stacktrace-parser: 0.1.10
       strip-ansi: 6.0.0
     dev: false
     resolution:
-      integrity: sha512-ykiKeUhTsMRoyyYnx4jM8xeOPfKGqQ7xgx2dNXOu4tbPpdivzjJp2+K6+xnqhTmZ7uxfFBV+b1OE1ZzA8qyX5Q==
-      tarball: '-/pull/@next%2Freact-dev-overlay/10.0.3'
-  /@next/react-refresh-utils/10.0.3:
+      integrity: sha512-xLVdbiHaJPpOV7YcSyqi4X5uNBXKrQPo/fhC5MTjPv6k7vedevaOQ+6zP9xmuR7wD2seqSbQOMk/J9kRPzpzbw==
+      tarball: '-/pull/@next%2Freact-dev-overlay/10.0.6-canary.0'
+  /@next/react-refresh-utils/10.0.6-canary.0:
     dev: false
     resolution:
-      integrity: sha512-XtzzPX2R4+MIyu1waEQUo2tiNwWVEkmObA6pboRCDTPOs4Ri8ckaIE08lN5A5opyF6GVN+IEq/J8KQrgsePsZQ==
-      tarball: '-/pull/@next%2Freact-refresh-utils/10.0.3'
+      integrity: sha512-/vfHAKvcYqKsQUPTuLUvkSKhmjT+tomrQJ9Ez5mp4Nvo7emZvgMSuZWrEaQcFt/xtlfdgyvPvC40bm+vZo077A==
+      tarball: '-/pull/@next%2Freact-refresh-utils/10.0.6-canary.0'
+  /@opentelemetry/api/0.14.0:
+    dependencies:
+      '@opentelemetry/context-base': 0.14.0
+    dev: false
+    resolution:
+      integrity: sha512-L7RMuZr5LzMmZiQSQDy9O1jo0q+DaLy6XpYJfIGfYSfoJA5qzYwUP3sP1uMIQ549DvxAgM3ng85EaPTM/hUHwQ==
+      tarball: '-/pull/@opentelemetry%2Fapi/0.14.0'
+  /@opentelemetry/context-base/0.14.0:
+    dev: false
+    resolution:
+      integrity: sha512-sDOAZcYwynHFTbLo6n8kIbLiVF3a3BLkrmehJUyEbT9F+Smbi47kLGS2gG2g0fjBLR/Lr1InPD7kXL7FaTqEkw==
+      tarball: '-/pull/@opentelemetry%2Fcontext-base/0.14.0'
   /@types/json-schema/7.0.6:
     dev: false
     resolution:
@@ -352,14 +365,6 @@ packages:
     resolution:
       integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==
       tarball: '-/pull/ajv/6.12.6'
-  /ally.js/1.4.1:
-    dependencies:
-      css.escape: 1.5.1
-      platform: 1.3.3
-    dev: false
-    resolution:
-      integrity: sha1-n7fmuljvrE7pExyymqnuO1QLzx4=
-      tarball: '-/pull/ally.js/1.4.1'
   /anser/1.4.9:
     dev: false
     resolution:
@@ -1027,13 +1032,6 @@ packages:
     resolution:
       integrity: sha512-MJG9liiZ+ogc4TzUwuvbER1JRdgvUFSB5+VR/g5h82fGaIRWMWddtKBHi7/sVhfjQZ6SehlyhvQYrcYkaUIpLg==
       tarball: '-/pull/create-hmac/1.1.7'
-  /cross-fetch/3.0.5:
-    dependencies:
-      node-fetch: 2.6.0
-    dev: false
-    resolution:
-      integrity: sha512-FFLcLtraisj5eteosnX1gf01qYDCOc4fDy0+euOt8Kn9YBY2NtXL/pCoYPavw24NIQkQqm5ZOLsGD5Zzj0gyew==
-      tarball: '-/pull/cross-fetch/3.0.5'
   /cross-fetch/3.0.6:
     dependencies:
       node-fetch: 2.6.1
@@ -1096,14 +1094,6 @@ packages:
     resolution:
       integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
       tarball: '-/pull/cssesc/3.0.0'
-  /cssnano-preset-simple/1.2.0:
-    dependencies:
-      caniuse-lite: 1.0.30001173
-      postcss: 7.0.35
-    dev: false
-    resolution:
-      integrity: sha512-zojGlY+KasFeQT/SnD/WqYXHcKddz2XHRDtIwxrWpGqGHp5IyLWsWFS3UW7pOf3AWvfkpYSRdxOSlYuJPz8j8g==
-      tarball: '-/pull/cssnano-preset-simple/1.2.0'
   /cssnano-preset-simple/1.2.1:
     dependencies:
       caniuse-lite: 1.0.30001173
@@ -1112,14 +1102,6 @@ packages:
     resolution:
       integrity: sha512-B2KahOIFTV6dw5Ioy9jHshTh/vAYNnUB2enyWRgnAEg3oJBjI/035ExpePaMqS2SwpbH7gCgvQqwpMBH6hTJSw==
       tarball: '-/pull/cssnano-preset-simple/1.2.1'
-  /cssnano-simple/1.2.0:
-    dependencies:
-      cssnano-preset-simple: 1.2.0
-      postcss: 7.0.35
-    dev: false
-    resolution:
-      integrity: sha512-pton9cZ70/wOCWMAbEGHO1ACsW1KggTB6Ikj7k71uOEsz6SfByH++86+WAmXjRSc9q/g9gxkpFP9bDX9vRotdA==
-      tarball: '-/pull/cssnano-simple/1.2.0'
   /cssnano-simple/1.2.1:
     dependencies:
       cssnano-preset-simple: 1.2.1
@@ -1141,13 +1123,11 @@ packages:
     resolution:
       integrity: sha512-m62ShEObQ39CfralilEQRjH6oAMtNCV1xJyEx5LpRYUVN+EviphDgUc/F3hnYbADmkiNs67Y+3ylmlG7Lnu+FA==
       tarball: '-/pull/d/1.0.1'
-  /data-uri-to-buffer/3.0.0:
-    dependencies:
-      buffer-from: 1.1.1
+  /data-uri-to-buffer/3.0.1:
     dev: false
     resolution:
-      integrity: sha512-MJ6mFTZ+nPQO+39ua/ltwNePXrfdF3Ww0wP1Od7EePySXN1cP9XNqRQOG3FxTfipp8jx898LUCgBCEP11Qw/ZQ==
-      tarball: '-/pull/data-uri-to-buffer/3.0.0'
+      integrity: sha512-WboRycPNsVw3B3TL559F7kuBUM4d8CgMEvk6xEJlOp7OBPjt6G7z8WMWlD2rOFZLk6OYfFIUGsCOWzcQH9K2og==
+      tarball: '-/pull/data-uri-to-buffer/3.0.1'
   /debug/2.6.9:
     dependencies:
       ms: 2.0.0
@@ -1240,23 +1220,15 @@ packages:
     resolution:
       integrity: sha512-kqag/Nl+f3GwyK25fhUMYj81BUOrZ9IuJsjIcDE5icNM9FJHAVm3VcUDxdLPoQtTuUylWm6ZIknYJwwaPxsUzg==
       tarball: '-/pull/diffie-hellman/5.0.3'
-  /dom-serializer/0.2.2:
+  /dom-serializer/1.1.0:
     dependencies:
       domelementtype: 2.1.0
+      domhandler: 3.3.0
       entities: 2.1.0
     dev: false
     resolution:
-      integrity: sha512-2/xPb3ORsQ42nHYiSunXkDjPLBaEj/xTwUO4B7XCZQTRk7EBtTOPaygh10YAAh2OI1Qrp6NWfpAhzswj0ydt9g==
-      tarball: '-/pull/dom-serializer/0.2.2'
-  /dom-serializer/1.0.1:
-    dependencies:
-      domelementtype: 2.1.0
-      domhandler: 3.0.0
-      entities: 2.1.0
-    dev: false
-    resolution:
-      integrity: sha512-1Aj1Qy3YLbdslkI75QEOfdp9TkQ3o8LRISAzxOibjBs/xWwr1WxZFOQphFkZuepHFGo+kB8e5FVJSS0faAJ4Rw==
-      tarball: '-/pull/dom-serializer/1.0.1'
+      integrity: sha512-ox7bvGXt2n+uLWtCRLybYx60IrOlWL/aCebWJk1T0d4m3y2tzf4U3ij9wBMUb6YJZpz06HCCYuyCDveE2xXmzQ==
+      tarball: '-/pull/dom-serializer/1.1.0'
   /domain-browser/1.2.0:
     dev: false
     resolution:
@@ -1267,22 +1239,22 @@ packages:
     resolution:
       integrity: sha512-LsTgx/L5VpD+Q8lmsXSHW2WpA+eBlZ9HPf3erD1IoPF00/3JKHZ3BknUVA2QGDNu69ZNmyFmCWBSO45XjYKC5w==
       tarball: '-/pull/domelementtype/2.1.0'
-  /domhandler/3.0.0:
+  /domhandler/3.3.0:
     dependencies:
       domelementtype: 2.1.0
     dev: false
     resolution:
-      integrity: sha512-eKLdI5v9m67kbXQbJSNn1zjh0SDzvzWVWtX+qEI3eMjZw8daH9k8rlj1FZY9memPwjiskQFbe7vHVVJIAqoEhw==
-      tarball: '-/pull/domhandler/3.0.0'
-  /domutils/2.1.0:
+      integrity: sha512-J1C5rIANUbuYK+FuFL98650rihynUOEzRLxW+90bKZRWB6A1X1Tf82GxR1qAWLyfNPRvjqfip3Q5tdYlmAa9lA==
+      tarball: '-/pull/domhandler/3.3.0'
+  /domutils/2.4.2:
     dependencies:
-      dom-serializer: 0.2.2
+      dom-serializer: 1.1.0
       domelementtype: 2.1.0
-      domhandler: 3.0.0
+      domhandler: 3.3.0
     dev: false
     resolution:
-      integrity: sha512-CD9M0Dm1iaHfQ1R/TI+z3/JWp/pgub0j4jIQKH89ARR4ATAV2nbaOQS5XxU9maJP5jHaPdDDQSEHuE2UmpUTKg==
-      tarball: '-/pull/domutils/2.1.0'
+      integrity: sha512-NKbgaM8ZJOecTZsIzW5gSuplsX2IWW2mIK7xVr8hTQF2v1CJWTmLZ1HOCh5sH+IzVPAGE5IucooOkvwBRAdowA==
+      tarball: '-/pull/domutils/2.4.2'
   /duplexify/3.7.1:
     dependencies:
       end-of-stream: 1.4.4
@@ -1743,16 +1715,16 @@ packages:
     resolution:
       integrity: sha512-Tti3gMqLdZfhOQY1Mzf/AanLiqh1WTiJgEj26ZuYQ9fbkLomzGchCws4FyrSd4VkpBfiNhaE1On+lOz894jvXg==
       tarball: '-/pull/hmac-drbg/1.0.1'
-  /htmlparser2/4.1.0:
+  /htmlparser2/5.0.1:
     dependencies:
       domelementtype: 2.1.0
-      domhandler: 3.0.0
-      domutils: 2.1.0
+      domhandler: 3.3.0
+      domutils: 2.4.2
       entities: 2.1.0
     dev: false
     resolution:
-      integrity: sha512-4zDq1a1zhE4gQso/c5LP1OtrhYTncXNSpvJYtWJBtXAETPlMfi3IFNjGuQbYLuVY4ZR0QMqRVvo4Pdy9KLyP8Q==
-      tarball: '-/pull/htmlparser2/4.1.0'
+      integrity: sha512-vKZZra6CSe9qsJzh0BjBGXo8dvzNsq/oGvsjfRdOrrryfeD9UOBEEQdeoqCRmKZchF5h2zOBMQ6YuQ0uRUmdbQ==
+      tarball: '-/pull/htmlparser2/5.0.1'
   /http-errors/1.7.3:
     dependencies:
       depd: 1.1.2
@@ -2359,15 +2331,16 @@ packages:
     resolution:
       integrity: sha512-mc/caHeUcdjnC/boPWJefDr4KUIWQNv+tlnFnJd38QMou86QtxQzBJfxgGRzvx8jazYRqrVlaHarfO72uNxPOg==
       tarball: '-/pull/next-tick/1.0.0'
-  /next/10.0.3:
+  /next/10.0.6-canary.0:
     dependencies:
-      '@ampproject/toolbox-optimizer': 2.7.0-alpha.1
+      '@ampproject/toolbox-optimizer': 2.7.1-alpha.0
       '@babel/runtime': 7.12.5
       '@hapi/accept': 5.0.1
-      '@next/env': 10.0.3
-      '@next/polyfill-module': 10.0.3
-      '@next/react-dev-overlay': 10.0.3
-      '@next/react-refresh-utils': 10.0.3
+      '@next/env': 10.0.6-canary.0
+      '@next/polyfill-module': 10.0.6-canary.0
+      '@next/react-dev-overlay': 10.0.6-canary.0
+      '@next/react-refresh-utils': 10.0.6-canary.0
+      '@opentelemetry/api': 0.14.0
       ast-types: 0.13.2
       babel-plugin-transform-define: 2.0.0
       babel-plugin-transform-react-remove-prop-types: 0.4.24
@@ -2386,6 +2359,7 @@ packages:
       native-url: 0.3.4
       node-fetch: 2.6.1
       node-html-parser: 1.4.9
+      p-limit: 3.1.0
       path-browserify: 1.0.1
       pnp-webpack-plugin: 1.6.4
       postcss: 8.1.7
@@ -2397,7 +2371,6 @@ packages:
       resolve-url-loader: 3.1.2
       sass-loader: 10.0.5
       schema-utils: 2.7.1
-      sharp: 0.26.2
       stream-browserify: 3.0.0
       style-loader: 1.2.1
       styled-jsx: 3.3.2
@@ -2408,8 +2381,8 @@ packages:
       webpack-sources: 1.4.3
     dev: false
     resolution:
-      integrity: sha512-QYCfjZgowjaLUFvyV8959SmkUZU/edFgHeiXNtWDv7kffo/oTm891p0KZAkk5cMIHcsDX3g3UuQdw/zmui783g==
-      tarball: '-/pull/next/10.0.3'
+      integrity: sha512-vABmEeUbEAuxpzX1RfhafTFyxfnVCu7daNjn153HgeHs4DSmRlzm/QcSCtWt30ro+93y1/+6f8HHKWpURXBZTQ==
+      tarball: '-/pull/next/10.0.6-canary.0'
   /node-abi/2.19.3:
     dependencies:
       semver: 5.7.1
@@ -2422,11 +2395,6 @@ packages:
     resolution:
       integrity: sha512-flmrDNB06LIl5lywUz7YlNGZH/5p0M7W28k8hzd9Lshtdh1wshD2Y+U4h9LD6KObOy1f+fEVdgprPrEymjM5uw==
       tarball: '-/pull/node-addon-api/3.1.0'
-  /node-fetch/2.6.0:
-    dev: false
-    resolution:
-      integrity: sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
-      tarball: '-/pull/node-fetch/2.6.0'
   /node-fetch/2.6.1:
     dev: false
     resolution:
@@ -2512,6 +2480,8 @@ packages:
       tarball: '-/pull/number-is-nan/1.0.1'
   /object-assign/4.1.1:
     dev: false
+    engines:
+      node: '>=0.10.0'
     resolution:
       integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==
       tarball: '-/pull/object-assign/4.1.1'
@@ -2557,6 +2527,13 @@ packages:
     resolution:
       integrity: sha512-//88mFWSJx8lxCzwdAABTJL2MyWB12+eIY7MDL2SqLmAkeKU9qxRvWuSyTjm3FUmpBEMuFfckAIqEaVGUDxb6w==
       tarball: '-/pull/p-limit/2.3.0'
+  /p-limit/3.1.0:
+    dependencies:
+      yocto-queue: 0.1.0
+    dev: false
+    resolution:
+      integrity: sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==
+      tarball: '-/pull/p-limit/3.1.0'
   /p-locate/3.0.0:
     dependencies:
       p-limit: 2.3.0
@@ -2671,11 +2648,11 @@ packages:
     resolution:
       integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==
       tarball: '-/pull/pkg-dir/4.2.0'
-  /platform/1.3.3:
+  /platform/1.3.6:
     dev: false
     resolution:
-      integrity: sha1-ZGx3ARiZhwtqCQPnXpl+jlHadGE=
-      tarball: '-/pull/platform/1.3.3'
+      integrity: sha512-fnWVljUchTro6RiCFvCXBbNhJc2NijN7oIQxbwsyL0buWJPG85v81ehlHI9fXrJsMNgTofEoWIQeClKpgxFLrg==
+      tarball: '-/pull/platform/1.3.6'
   /pnp-webpack-plugin/1.6.4:
     dependencies:
       ts-pnp: 1.2.0
@@ -2780,27 +2757,6 @@ packages:
     resolution:
       integrity: sha512-llCQW1Pz4MOPwbZLmOddGM9eIJ8Bh7SZ2Oj5sxZva77uVaotYDsYTch1WBTNu7fUY0fpWp0fdt7uW40D4sRiiQ==
       tarball: '-/pull/postcss/8.1.7'
-  /prebuild-install/5.3.6:
-    dependencies:
-      detect-libc: 1.0.3
-      expand-template: 2.0.3
-      github-from-package: 0.0.0
-      minimist: 1.2.5
-      mkdirp-classic: 0.5.3
-      napi-build-utils: 1.0.2
-      node-abi: 2.19.3
-      noop-logger: 0.1.1
-      npmlog: 4.1.2
-      pump: 3.0.0
-      rc: 1.2.8
-      simple-get: 3.1.0
-      tar-fs: 2.1.1
-      tunnel-agent: 0.6.0
-      which-pm-runs: 1.0.0
-    dev: false
-    resolution:
-      integrity: sha512-s8Aai8++QQGi4sSbs/M1Qku62PFK49Jm1CbgXklGz4nmHveDq0wzJkg7Na5QbnO1uNH8K7iqx2EQ/mV0MZEmOg==
-      tarball: '-/pull/prebuild-install/5.3.6'
   /prebuild-install/6.0.0:
     dependencies:
       detect-libc: 1.0.3
@@ -2948,12 +2904,15 @@ packages:
     resolution:
       integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==
       tarball: '-/pull/rc/1.2.8'
-  /react-dom/17.0.1:
+  /react-dom/17.0.1_react@17.0.1:
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
+      react: 17.0.1
       scheduler: 0.20.1
     dev: false
+    peerDependencies:
+      react: 17.0.1
     resolution:
       integrity: sha512-6eV150oJZ9U2t9svnsspTMrWNyHc6chX0KzDeAOXftRa8bNeOKTTfCJ7KorIwenkHd2xqVTBTCZd79yk/lx/Ug==
       tarball: '-/pull/react-dom/17.0.1'
@@ -2972,6 +2931,8 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
     dev: false
+    engines:
+      node: '>=0.10.0'
     resolution:
       integrity: sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w==
       tarball: '-/pull/react/17.0.1'
@@ -3233,22 +3194,6 @@ packages:
     resolution:
       integrity: sha512-QMEp5B7cftE7APOjk5Y6xgrbWu+WkLVQwk8JNjZ8nKRciZaByEW6MubieAiToS7+dwvrjGhH8jRXz3MVd0AYqQ==
       tarball: '-/pull/sha.js/2.4.11'
-  /sharp/0.26.2:
-    dependencies:
-      color: 3.1.3
-      detect-libc: 1.0.3
-      node-addon-api: 3.1.0
-      npmlog: 4.1.2
-      prebuild-install: 5.3.6
-      semver: 7.3.4
-      simple-get: 4.0.0
-      tar-fs: 2.1.1
-      tunnel-agent: 0.6.0
-    dev: false
-    requiresBuild: true
-    resolution:
-      integrity: sha512-bGBPCxRAvdK9bX5HokqEYma4j/Q5+w8Nrmb2/sfgQCLEUx/HblcpmOfp59obL3+knIKnOhyKmDb4tEOhvFlp6Q==
-      tarball: '-/pull/sharp/0.26.2'
   /sharp/0.26.3:
     dependencies:
       array-flatten: 3.0.0
@@ -3262,6 +3207,8 @@ packages:
       tar-fs: 2.1.1
       tunnel-agent: 0.6.0
     dev: false
+    engines:
+      node: '>=10'
     requiresBuild: true
     resolution:
       integrity: sha512-NdEJ9S6AMr8Px0zgtFo1TJjMK/ROMU92MkDtYn2BBrDjIx3YfH9TUyGdzPC+I/L619GeYQc690Vbaxc5FPCCWg==
@@ -3611,15 +3558,15 @@ packages:
     resolution:
       integrity: sha512-EAPipTNeWsb/3wLPeup1tVPaXfIaU68xMnVdPafIL1TV05OhASArYyIfFvnvJCNrR2NIOvDVNNTFRa+Re2MWyw==
       tarball: '-/pull/terser/4.8.0'
-  /terser/5.1.0:
+  /terser/5.5.1:
     dependencies:
       commander: 2.20.3
-      source-map: 0.6.1
+      source-map: 0.7.3
       source-map-support: 0.5.19
     dev: false
     resolution:
-      integrity: sha512-pwC1Jbzahz1ZPU87NQ8B3g5pKbhyJSiHih4gLH6WZiPU8mmS1IlGbB0A2Nuvkj/LCNsgIKctg6GkYwWCeTvXZQ==
-      tarball: '-/pull/terser/5.1.0'
+      integrity: sha512-6VGWZNVP2KTUcltUQJ25TtNjx/XgdDsBDKGt8nN0MpydU36LmbPPcMBd2kmtZNNGVVDLg44k7GKeHHj+4zPIBQ==
+      tarball: '-/pull/terser/5.5.1'
   /through2/2.0.5:
     dependencies:
       readable-stream: 2.3.7
@@ -3960,8 +3907,13 @@ packages:
     resolution:
       integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
       tarball: '-/pull/yallist/4.0.0'
+  /yocto-queue/0.1.0:
+    dev: false
+    resolution:
+      integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+      tarball: '-/pull/yocto-queue/0.1.0'
 specifiers:
-  next: 10.0.3
+  next: 10.0.6-canary.0
   react: 17.0.1
   react-dom: 17.0.1
   sharp: 0.26.3
