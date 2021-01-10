@@ -10,7 +10,7 @@ See the main [README](https://github.com/elliottsj/nextjs-vercel-pnpm-issue/blob
 
 ### How to repro this bug fix
 
-1. Set up this project as described [here](https://github.com/elliottsj/nextjs-vercel-pnpm-issue/tree/fix#repro).
+1. Set up this project as described [here](https://github.com/elliottsj/nextjs-vercel-pnpm-issue/tree/master#repro).
 2. Set up a 3rd-party npm registry, e.g. [Bytesafe](https://bytesafe.dev/). This is needed to publish the patched Next.js packages so Vercel can download them.
 
     Make sure to configure the [`.npmrc`](.npmrc) file so that the correct registry is used. You may need to set an `NPM_TOKEN` environment variable on Vercel to authenticate.
