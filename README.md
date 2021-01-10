@@ -102,4 +102,4 @@ The exact repro steps were:
 
 ### Proposed fix
 
-(link PR) is proposed to fix this issue. Look at the [fix](https://github.com/elliottsj/nextjs-vercel-pnpm-issue/tree/fix) branch for a demonstration.
+[#20949](https://github.com/vercel/next.js/pull/20949) is proposed to fix this issue. Look at the [fix](https://github.com/elliottsj/nextjs-vercel-pnpm-issue/tree/fix) branch for a demonstration.
