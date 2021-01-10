@@ -6,7 +6,7 @@ See the main [README](https://github.com/elliottsj/nextjs-vercel-pnpm-issue/blob
 
 ## Proposed fix
 
-(link PR) is proposed to fix this issue. By using [resolve](https://github.com/browserify/resolve)'s `preserveSymlinks: true` option instead of `fs.realpathSync`, we avoid the build error.
+[#20949](https://github.com/vercel/next.js/pull/20949) is proposed to fix this issue. By using [resolve](https://github.com/browserify/resolve)'s `preserveSymlinks: true` option instead of `fs.realpathSync`, we avoid the build error.
 
 ### How to repro this bug fix
 
