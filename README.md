@@ -99,3 +99,7 @@ The exact repro steps were:
 4. In the Vercel project settings, set the **Install Command** to `npx pnpm install`.
 5. Push each commit invididually (see the commit history of this repo) and observe each Vercel deployment.
 6. After pushing commit 804c122157193afa6fd8de9386782aca1e14cf36, observe the build logs above.
+
+### Proposed fix
+
+(link PR) is proposed to fix this issue. Look at the [fix](https://github.com/elliottsj/nextjs-vercel-pnpm-issue/tree/fix) branch for a demonstration.
