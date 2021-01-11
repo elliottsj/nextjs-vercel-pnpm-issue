@@ -2,6 +2,10 @@
 
 Demo of an issue deploying a next@10.0.3 project to Vercel using pnpm.
 
+## Fixed
+
+This [issue](https://github.com/vercel/next.js/issues/20948) has been fixed as of [v10.0.6-canary.0](https://github.com/vercel/next.js/releases/tag/v10.0.6-canary.0).
+
 ### The issue
 
 After switching to pnpm by running `pnpm install` to generate [pnpm-lock.yaml](pnpm-lock.yaml) and setting the Vercel project's **install command** to `npx pnpm install`, the Vercel build will fail with:
